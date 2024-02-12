@@ -1,0 +1,98 @@
+
+body {
+    font-family: 'Montserrat', cursive;
+    font-size: 1.6rem;
+    color: var(--font-color);
+    background-image: url('../assets/food.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--background-dark);
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  nav{
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--background-dark);
+    border-bottom: 1px solid var(--border-color);
+  }
+  .name{
+    margin-bottom: 1rem;
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+  }
+  .button{
+    padding: 2rem;
+  font-size: 2rem;
+  background-color: transparent;
+  border-bottom: 2px solid transparent;
+  transition: transform 0.3s;
+  }
+  button {
+    font-family: inherit;
+    color: inherit;
+    cursor: pointer;
+    border-style: none;
+    outline: none;
+  }
+
+nav button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+nav button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+#context {
+    max-width: 700px;
+    padding: 4rem;
+    margin: 6rem 0;
+    font-size: 2rem;
+    background-color: var(--background-light);
+    border: 1px solid var(--border-color);
+  }
+
+  .homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 525px;
+    width: 618px;
+    animation: fadeIn 1.5s;
+  }
+
+.homepage h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.homepage p {
+    font-size: 1.2em;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}

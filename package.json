@@ -1,0 +1,31 @@
+{
+  "name": "restuarant",
+  "version": "1.0.0",
+  "description": "A simple restuarant page using webpack and js",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasasa22/Restaurant_page.git"
+  },
+  "author": "Kasasa Livingstone Trevor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasasa22/Restaurant_page/issues"
+  },
+  "homepage": "https://github.com/kasasa22/Restaurant_page#readme",
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.10.0",
+    "file-loader": "^6.2.0",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^14.1.0",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4"
+  }
+}
