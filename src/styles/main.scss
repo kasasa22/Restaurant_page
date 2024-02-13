@@ -73,16 +73,7 @@ nav button:hover {
     border-radius: 5px;
 }
 
-#context {
-    max-width: 700px;
-    padding: 4rem;
-    margin: 6rem 0;
-    font-size: 2rem;
-    background-color: var(--background-light);
-    border: 1px solid var(--border-color);
-  }
-
-  .home {
+.home {
     display: flex;    
     align-items: center;
     justify-content: center;   
@@ -116,3 +107,60 @@ nav button:hover {
     background-color: var(--background-light);
 
   }
+  //menu page
+ 
+
+#menu{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  width: 100%;
+}
+.grid-container{
+  width: 100% !important;
+}
+
+.menu li {
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  padding: 20px;
+  width: 160px;
+  height: 160px;
+  text-align: center;
+  color: white;
+}
+
+#burger, #pizza, #pasta, #rice {
+  width: 100%; 
+}
+
+#burger, #pizza {
+  margin-bottom: 20px; 
+  margin-right: 20px;
+
+}
+
+#pasta, #rice {
+  margin-bottom: 20px;
+}
+
+#burger {
+  background-image: url('../assets/pizza.jpg');
+  padding-right: 20px;
+}
+
+#pizza {
+  background-image: url('../assets/pizza.jpg');
+}
+
+#pasta {
+  background-image: url('../assets/pizza.jpg');
+  padding-right: 20px;
+}
+
+#rice {
+  background-image: url('../assets/pizza.jpg');
+}

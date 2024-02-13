@@ -1,6 +1,5 @@
-export function loadHomePage() {
+export function homePage() {
     const contentDiv = document.getElementById('content');
-    content.innerHTML ='';
 
     const homepageDiv = document.createElement('div');
     homepageDiv.classList.add('homepage');
