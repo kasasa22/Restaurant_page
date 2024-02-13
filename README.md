@@ -22,7 +22,7 @@ The Restaurant Project is a web application that allows users to explore the men
 
 To run this project locally, follow these steps:
 
-1. Clone the repository: git clone https://github.com/your-username/restaurant-project.git
+1. Clone the repository: git clone https://github.com/kasasa22/restaurant-project.git
 2. Navigate to the project directory: cd restaurant-project
 3. Open the `index.html` file in your web browser.
 
